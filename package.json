@@ -1,0 +1,15 @@
+{
+  "name": "rescript-validator",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "author": "Alexander Zenov <alexander.zenov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rescript": "^9.1.4",
+    "validator": "^13.6.0"
+  }
+}
