@@ -1,15 +1,27 @@
 {
   "name": "rescript-validator",
   "version": "0.0.1",
+  "description": "ReScript bindings for validator.js",
+  "author": "Alexander Zenov <alexander.zenov@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/after-finitude/rescript-validator",
+  "bugs": {
+    "url": "https://github.com/after-finitude/rescript-validator/issues"
+  },
+  "keywords": [
+    "validator",
+    "ReScript",
+    "rescript"
+  ],
   "scripts": {
     "build": "rescript",
     "clean": "rescript clean -with-deps",
     "start": "rescript build -w"
   },
-  "author": "Alexander Zenov <alexander.zenov@gmail.com>",
-  "license": "MIT",
   "dependencies": {
-    "rescript": "^9.1.4",
     "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.4"
   }
 }
